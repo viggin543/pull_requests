@@ -1,0 +1,15 @@
+[package]
+name = "pull_requests"
+edition = "2018"
+version = "0.1.0"
+authors = ["igot@me.com"]
+description = "A fun game where you guess what number the computer has chosen."
+license = "MIT OR Apache-2.0"
+
+
+[dependencies]
+clap = "2.33.0"
+futures = "0.3.4"
+reqwest = { version = "0.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+json = "0.12.1"
